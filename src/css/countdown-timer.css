@@ -1,0 +1,16 @@
+.timer {
+  display: flex;
+}
+.field {
+  width: 80px;
+  text-align: center;
+}
+.value {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  color: #db5656;
+}
+.label {
+  font-weight: 700;
+}

@@ -9,12 +9,12 @@ refs.stopBtn.addEventListener('click', onClickStop);
 
 noActiveBtn(refs.stopBtn);
 
-function noActiveBtn(el) {
-    el.disabled = true;
+function noActiveBtn(link) {
+    link.disabled = true;
 }
 
-function isActiveBtn(el) {
-    el.disabled = false;
+function isActiveBtn(link) {
+    link.disabled = false;
 }
 
 function onClickStart(e) {
